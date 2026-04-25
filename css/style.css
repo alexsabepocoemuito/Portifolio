@@ -66,9 +66,9 @@ footer.rodape {
     font-size: 14px;
     margin-top: auto;
 }
-
-footer.rodape a {
-    color: #000000;
+/* ---------------------------------------------------------------------------------------------- */
+footer.rodape a {                           /*link de baixo "ENTRE EM CONTATO */
+    color: #a541d3;
     text-decoration: none;
 }
 
