@@ -1,21 +1,17 @@
 [
-    {
-        "titulo":"Espresso",
-        "img":"../img/espresso.png",
-        "desc":"Um shot concentrado e aromático do nosso blend especial, com crema perfeita. Ideal para os amantes do café puro.",
-        "preco":"R$3,00"
-    },
-    {
-        "titulo":"Latte Macchiato",
-        "img":"../img/latte_macchiato.png",
-        "desc":"Leite vaporizado delicadamente manchado com um shot de espresso, criando camadas visíveis e um sabor suave e cremoso.",
-        "preco":"R$8,00"
-    },
-    {
-        "titulo":"Sanduíche de Queijo Quente",
-        "img":"../img/sanduiche_de_queijo_quente.png",
-        "desc":"Pão de forma tostado com queijo mussarela derretido. Simples e delicioso.",
-        "preco":"R$8,00"
-
-    }
+  {
+    "titulo": "Café Central",
+    "img": "./img/cafe-central.png",
+    "desc": "Um site institucional moderno desenvolvido para uma cafeteria fictícia, focado em apresentar produtos, fortalecer a identidade da marca e melhorar a comunicação com clientes. O projeto destaca organização de layout, responsividade e uma experiência visual envolvente, simulando um ambiente real de negócio."
+  },
+  {
+    "titulo": "TechEduca",
+    "img": "./img/techeduca.png",
+    "desc": "Plataforma educacional desenvolvida em equipe com foco na aplicação prática de conceitos de desenvolvimento web. O sistema integra autenticação de usuários, manipulação de dados e organização de conteúdo educacional, evidenciando habilidades em trabalho colaborativo, estruturação de projetos e integração entre front-end e back-end."
+  },
+  {
+    "titulo": "Conrad Escola Digital",
+    "img": "./img/conrad.png",
+    "desc": "Plataforma digital educacional projetada para transformar a forma de ensinar e aprender.O sistema permite que educadores criem e gerenciem atividades em múltiplos formatos, acompanhem o desempenho dos alunos por meio de relatórios e ofereçam aulas ao vivo com gravação automática. O projeto se destaca pela proposta de centralizar recursos educacionais em um ambiente interativo, acessível e orientado a dados, promovendo uma experiência de aprendizagem moderna e personalizada."
+  }
 ]
