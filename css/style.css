@@ -23,7 +23,7 @@ body {
 /* ======= CABEÇALHO ======= */
 /* ========================================================*/
 header.topo {
-    background-color: #2652c9;
+    background-color: #041136;
     color: #fff;
     padding: 20px ;
 }
@@ -70,7 +70,7 @@ nav.menu a {
 }
 
 nav.menu a:hover {
-    color: #000000;
+    color: #c382e0;
 }
 
 nav.menu a.ativo {
@@ -81,7 +81,7 @@ nav.menu a.ativo {
 
 /* ======= RODAPÉ ======= */
 footer.rodape {
-    background-color: #202427;
+    background-color: #041136;
     color: #ffff;
     text-align: center;
     padding: 20px;

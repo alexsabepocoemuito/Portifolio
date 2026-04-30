@@ -1,3 +1,5 @@
+const projetoscontainer = document.getElementById("projetos-container")
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("projetos-container");
 
