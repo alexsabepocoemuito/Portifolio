@@ -1,5 +1,14 @@
 /* ===== PROJETOS ===== */
 
+.projetos h2 {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px;   /* Dá um espaço maior do topo */
+    font-size: 2.5em;   /* Deixa o título mais imponente */
+    color: #041136;     /* Cor azul para combinar com o seu cabeçalho */
+}
+
+
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -9,15 +18,26 @@
 }
 
 .card {
-    width: 300px;
-    background: #111;
+    width: 350px; /* Aumentado de 300px para 350px */
+    min-height: 500px; /* Garante que todos os cards tenham o mesmo tamanho mínimo */
+    background: #8069be; 
     border-radius: 15px;
     overflow: hidden;
-    padding: 15px;
+    padding: 20px;
     color: white;
     transition: 0.3s;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
 }
+
+.card p {
+    font-size: 0.95em;
+    line-height: 1.5; /* Melhora a leitura do texto longo */
+    opacity: 0.9;
+    text-align: justify; /* Deixa o texto alinhado nas laterais */
+}
+
 
 .card:hover {
     transform: translateY(-10px) scale(1.02);
@@ -35,7 +55,14 @@
     font-size: 1.3em;
 }
 
-.card p {
-    font-size: 0.9em;
-    opacity: 0.8;
+.card img {
+    width: 100%;
+    height: 180px;
+    /* Alterado de 'cover' para 'contain' para mostrar a imagem inteira */
+    object-fit: contain; 
+    /* Adicionado um fundo branco para imagens que não preenchem todo o espaço */
+    background-color: #fff; 
+    border-radius: 10px;
+    /* Garante que a imagem fique centralizada */
+    display: block;
 }
